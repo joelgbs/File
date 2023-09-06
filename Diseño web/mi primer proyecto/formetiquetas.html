@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+    <style>
+        body{
+            background-color: #17202A;
+            color: white;
+            font-family: 'Roboto Mono', monospace;
+        }
+        main{
+            width: 100%;
+            height: auto;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        form{
+            background-color:#2C3E50  ;
+            width: 400px;
+            height: auto;
+            border-radius: 10px;
+        }
+        h2{
+            text-align: center;
+            color: #CB4335 ;
+        }
+        .padre{
+            height: auto;
+            display: flex;
+            margin-left: 20px;
+            margin-right: 20px;
+            margin-top: 30px;
+        }
+        .hijo1 input{
+            width: 165px;
+            margin-right: 12px;
+            
+        }
+        .hijo2 input{
+            width: 165px;
+            
+        }
+        .padre label{
+            margin-left: 5px;
+            margin-top: 15px;
+        }
+        .cuest{
+            display: flex;
+            flex-direction: column;
+            margin-left: 20px;
+            margin-right: 20px;
+            
+
+        }
+        input{
+            height: 25px;
+            
+        }
+        .cuest input{
+            margin-top: 15px;
+            border: none;
+            height: 35px;
+        }
+        .cuest textarea{
+            margin-top: 15px;
+            margin-bottom: 50px;
+            width: 90%;
+            height: 90%;
+        }
+        .btn{
+            width: 250px;
+            margin-left: 55px;
+            border: none;
+            height: 35px;
+            background-color: #EC7063;
+            margin-bottom: 30px;
+        }
+        select{
+            margin-left: 50px;
+            margin-right: 50px;
+            margin-bottom: 20px;
+            height: 30px;
+        }
+        fieldset{
+            margin-bottom: 30px;
+        }
+        a{
+            text-align: center;
+width: 30%;
+height: 30px;
+background: aqua;
+        }
+    </style>
+</head>
+<body>
+    <main>
+        <form action="">
+            <h2>Formulario</h2>
+            <div class="padre">
+                <div class="hijo1">
+                     <label for="">Nombre</label>
+
+                     <input type="text" class="nmo">
+                </div>
+                <div class="hijo2">
+                     <label for="">Apellido</label>
+                     <input type="text">
+                </div>     
+            </div>
+            <div class="cuest">
+                <input type="text" placeholder="Edad">
+                <input type="text" placeholder="Correo Electronico">
+                <input type="password" placeholder="Password">
+                <label> </label>
+                <fieldset>
+                    <legend>Datos personales</legend>
+                      <textarea name="mensaje" id="" cols="30" rows="10" placeholder="Mensaje..."></textarea>
+                </fieldset>
+                <img src="https://depor.com/resizer/oPf-2Xij6G_oA4sfJ7Y5DGDQYhM=/580x330/smart/filters:format(jpeg):quality(75)/cloudfront-us-east-1.images.arcpublishing.com/elcomercio/DAYT2F5NUNB7VPAFKUPHNDXVQA.jpg"  >
+                <br>
+                <a href="https://depor.com/resizer/oPf-2Xij6G_oA4sfJ7Y5DGDQYhM=/580x330/smart/filters:format(jpeg):quality(75)/cloudfront-us-east-1.images.arcpublishing.com/elcomercio/DAYT2F5NUNB7VPAFKUPHNDXVQA.jpg">Ir a google</a>
+               <br>
+                <select name="" id="">
+                    <option value="Puto">opcion1</option>
+                    <option value="">opcion2</option>
+                    <option value="">opcion3</option>
+                    <option value="">opcion4</option>
+                </select>
+                <input type="button" value="Enviar" class="btn">
+            </div>
+            
+            
+        </form>
+    </main>
+</body>
+</html>

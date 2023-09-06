@@ -1,0 +1,35 @@
+body{
+
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    
+
+}
+.seccion1{
+
+    width: 200px;
+    height: 200px;
+    background-color: aqua;
+    color: chocolate;
+    border-radius: 15px;
+    border-color: gold;
+
+}
+
+form{
+ 
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    flex-direction: column;
+   
+}
+

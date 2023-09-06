@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Div</title>
+    <style>
+        body{
+            margin: 0;
+            padding: 0;
+            color: white;
+            display: grid;
+            place-items: center;
+            font-family: 'Open Sans', sans-serif;
+            text-align: end;
+        }
+        .padre{
+            width: 1000px;
+            height: 600px;
+            background-color: #212F3D  ;
+            margin-top: 40px;
+            text-align: center;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+        .hijo{
+            width: 250px;
+            height: 250px;
+            background-color: #2C3E50;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            
+        }
+        .nieto{
+            width: 75px;
+            height: 75px;
+            background-color: #566573;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+    </style>
+</head>
+<body>
+    <div class="padre">
+        Padre
+        <div class="hijo">
+            Hijo
+            <div class="nieto">
+                Nieto
+            </div>
+        </div>
+    </div>
+</body>
+</html>
